@@ -39,7 +39,7 @@ public class login extends HttpServlet {
             
             st.executeUpdate(query);
 
-            out.println("Everyting Ok, Data Inserted");
+            out.println("Everyting Ok, Data Inserted in the MySql database");
 
         }
     }
